@@ -12,7 +12,7 @@
     <!-- Heading -->
     <mj-section>
       <mj-column width="160px">
-        <mj-image src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/2c55ef861256522a5f1023d4d16bfbc35b6a4299/img/Logo.svg" />
+        <mj-image src="https://github.com/sergeyshishkin/email-templates/blob/master/img/Logo.png?raw=true" />
       </mj-column>
       <mj-column width="100%" padding="10px 0">
         <mj-text
