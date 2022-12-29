@@ -1,0 +1,137 @@
+<mjml>
+  <mj-head>
+
+
+    <mj-font
+      name="Inter"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+          <mj-title>Email Template</mj-title>
+  </mj-head>
+  <mj-body background-color="#fafafa" width="680px">
+    <!-- Heading -->
+    <mj-section>
+      <mj-column width="160px">
+        <mj-image src="./img/logo.svg" />
+      </mj-column>
+      <mj-column width="100%" padding="10px 0">
+        <mj-text
+          align="center"
+          font-size="16px"
+          font-family="Inter, sans-serif"
+          color="#515759"
+        >
+          Hi Sam! Here's your weekly updates 👀️
+        </mj-text>
+      </mj-column>
+
+      <!-- First item -->
+
+      <mj-column width="560px">
+        <mj-image src="./img/Rectangle 2.png" alt="" />
+      </mj-column>
+
+      <mj-column width="560px">
+        <mj-text
+          font-size="24px"
+          font-family="Inter, sans-serif"
+          font-weight="600"
+          color="#0C1014"
+        >
+          <span style="line-height: 22px;"
+            >Here Are the Best Sneakers of 2019</span
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="560px">
+        <mj-text font-size="16px" font-family="Inter, sans-serif" color="#515759">
+          We're still quite early into the year, but it's never too soon to
+          highlight our picks for the best sneakers of the year, so far.
+        </mj-text>
+      </mj-column>
+
+      <!-- Second item -->
+      <mj-column width="560px">
+        <mj-image src="./img/Rectangle 2-1.png" alt="" />
+      </mj-column>
+      <mj-column width="560px">
+        <mj-text
+          font-size="24px"
+          font-family="Inter, sans-serif"
+          font-weight="600"
+        >
+          <span style="line-height: 22px"
+            >8 Drops You Don't Want to Miss This Week</span
+          >
+        </mj-text>
+      </mj-column>
+      <mj-column width="560px">
+        <mj-text font-size="16px" font-family="Inter, sans-serif" color="#515759">
+          Supreme Fall 2019 Collection Week 2, Palace Fall 2019 Collection Week
+          5, Travis Scott: Look Mum I Can Fly Customizable Merch and more.
+        </mj-text>
+      </mj-column>
+
+      <!-- Third item -->
+      <mj-column width="560px">
+        <mj-image src="./img/Rectangle 2-2.png" alt="" />
+      </mj-column>
+      <mj-column width="560px">
+        <mj-text
+          font-size="24px"
+          font-family="Inter, sans-serif"
+          font-weight="600"
+        >
+          <span style="line-height: 22px">We opened a store in Warsaw</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="560px">
+        <mj-text font-size="16px" font-family="Inter, sans-serif" color="#515759">
+          The store focuses on up-and-coming brands that are doing really
+          innovative and exciting things that may ruffle a few feathers while
+          setting the trends and inspiring today's youth culture.
+        </mj-text>
+      </mj-column>
+      <!-- Footer -->
+      <mj-column width="560px">
+        <mj-divider
+          width="100%"
+          border-color="#D6D7D9"
+          border-style="solid"
+          border-width="1px"
+          padding-bottom="5px"
+          padding-top="50px"
+        ></mj-divider>
+
+        <mj-text font-size="12px" font-family="Inter, sans-serif" color="#515759">
+          This email was sent to you as a registered member of prfctfit.com. To
+          update your emails preferences
+          <span
+            ><a
+              href="#"
+              style="text-decoration: none; color: #1890ff"
+              >click here</a
+            ></span
+          >.Use of the service and website is subject to our <span
+            ><a
+              href="#"
+              style="text-decoration: none; color: #1890ff"
+              >Terms of Use</a> and
+          <span
+            ><a
+              href="#"
+              style="text-decoration: none; color: #1890ff"
+              >Privacy Statement</a>.
+        </mj-text>
+      </mj-column>
+
+      <!-- Copyright -->
+      <mj-column width="560px">
+        <mj-text font-size="12px" font-family="Inter, sans-serif" color="#949494">
+          © 2019 PRFCT FIT. All rights reserved</mj-text
+        >
+      </mj-column></mj-section
+    >
+  </mj-body>
+</mjml>
