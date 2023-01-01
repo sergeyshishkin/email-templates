@@ -1,0 +1,63 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .header-btn { background-color: #1890FF; border-radius: 30px; padding: 6px
+      18px;} .link-white, .link-white:hover, .link-white:visited,
+      .link-white:active { text-decoration:none; color:#ffffff; font-size: 9px;
+      } body {font-family:sans-serif; }
+    </mj-style></mj-head
+  >
+  <mj-body width="640px" background-color="#313131">
+    <!-- Logo section: adjust padding -->
+
+    <mj-section background-color="#aaaaaa">
+      <mj-column width="100%" border="1px solid red;">
+        <mj-image src="./img/apple-logo.png" alt="" width="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Navbar section: adjust padding -->
+    <mj-section background-color="#cccccc">
+      <mj-column width="28%" border="1px solid red;">
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-size="16px"
+          font-weight="500"
+          padding-left="40px"
+          >Final Cut Pro X</mj-text
+        >
+      </mj-column>
+      <mj-column width="42%" border="1px solid red;">
+        <mj-text align="right">
+          <a href="#" class="link-white"> Overview</a
+          >&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+          <a href="#" class="link-white">Motion</a
+          >&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+          <a href="#" class="link-white">Tech Specs</a>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="30%" border="1px solid red;">
+        <mj-text padding-right="40px" padding-left="0px">
+          <a href="#" class="link-white header-btn"> Free trial</a
+          >&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+          <a href="#" class="link-white header-btn">Buy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main  -->
+
+    <mj-section> </mj-section>
+
+    <!-- Advantages -->
+    <mj-section> </mj-section>
+
+    <!-- Cards -->
+    <mj-section> </mj-section>
+    <!-- Footer -->
+
+    <mj-section> </mj-section>
+  </mj-body>
+</mjml>
