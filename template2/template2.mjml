@@ -7,10 +7,8 @@
       } body {font-family: sans-serif; } .arrow-right{border: solid #51ACFF;
       border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform:
       rotate(-45deg); -webkit-transform: rotate(-45deg);} .link-blue {color:
-      #51ACFF; text-decoration:none;} .advantages { border:none; border-left:
-      4px solid #FDA472; color: #ffffff; font-size: 24px; font-weight: 500;
-      padding-left: 24px; height: 58px; vertical-align: middle;
-      background-color: none;}
+      #51ACFF; text-decoration:none;} .advantage-numbers {font-size: 36px;
+      font-weight: 500}
     </mj-style></mj-head
   >
   <mj-body width="640px" background-color="#ffffff">
@@ -115,7 +113,7 @@
           Editing, audio, motion graphics, and delivery.
         </mj-button>
         <mj-button
-          background-color="#111111"
+          background-color="transparent"
           font-size="32px"
           font-weight="bold"
           height="58px"
@@ -132,7 +130,7 @@
           Color grading, HDR support, and ProRes RAW.</mj-button
         >
         <mj-button
-          background-color="#111111"
+          background-color="transparent"
           font-size="32px"
           font-weight="bold"
           height="58px"
@@ -149,7 +147,7 @@
           Metal engine coming this fall.</mj-button
         >
         <mj-button
-          background-color="#111111"
+          background-color="transparent"
           font-size="32px"
           font-weight="bold"
           height="58px"
@@ -163,17 +161,81 @@
           padding-left="100px"
           >360° video editing and VR headset playback.
         </mj-button>
+        <mj-divider padding-top="49px" />
       </mj-column>
     </mj-section>
 
     <!-- Cards section-->
-    <mj-section background-color="#111111">
-      <mj-column width="100%">
-        <mj-divider />
-      </mj-column>
+    <mj-section
+      background-color="#111111"
+      background-url="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/speed-meter.png"
+      background-size="cover"
+      background-repeat="no-repeat"
+    >
+      <mj-group width="100%">
+        <mj-column width="30%">
+          <mj-button
+            line-height="25px"
+            background-color="transparent"
+            border-bottom="4px solid
+      #FDA472"
+            font-size="10px"
+            text-align="left"
+            inner-padding="7px 0px"
+            border-radius="0px"
+            width="96px"
+          >
+            up to<br />
+            <span class="advantage-numbers">3.2x</span><br />
+            faster render
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="30%">
+          <mj-button
+            line-height="25px"
+            background-color="transparent"
+            border-bottom="4px solid
+      #FDA472"
+            font-size="10px"
+            text-align="left"
+            inner-padding="7px 0px"
+            border-radius="0px"
+            width="96px"
+          >
+            up to<br />
+            <span class="advantage-numbers">8+</span><br />
+            streams of 4k video
+          </mj-button></mj-column
+        >
+
+        <mj-column width="30%">
+          <mj-button
+            line-height="25px"
+            background-color="transparent"
+            border-bottom="4px solid
+      #FDA472"
+            font-size="10px"
+            text-align="left"
+            inner-padding="7px 0px"
+            border-radius="0px"
+            width="96px"
+          >
+            up to<br />
+            <span class="advantage-numbers">2x</span><br />
+            faster running time
+          </mj-button></mj-column
+        >
+      </mj-group>
     </mj-section>
     <!-- Footer section-->
 
-    <mj-section> </mj-section>
+    <mj-section background-color="#313131">
+      <mj-column width="50%">
+        <mj-image src="" href="#" alt="" />
+        <mj-image src="" href="#" alt="" />
+        <mj-image src="" href="#" alt="" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
