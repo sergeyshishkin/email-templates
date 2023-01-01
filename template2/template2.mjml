@@ -4,16 +4,20 @@
       .header-btn { background-color: #1890FF; border-radius: 30px; padding: 6px
       18px;} .link-white, .link-white:hover, .link-white:visited,
       .link-white:active { text-decoration:none; color:#ffffff; font-size: 9px;
-      } body {font-family:sans-serif; } .arrow-right{border: solid #51ACFF;
+      } body {font-family: sans-serif; } .arrow-right{border: solid #51ACFF;
       border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform:
-      rotate(-45deg); -webkit-transform: rotate(-45deg);}
+      rotate(-45deg); -webkit-transform: rotate(-45deg);} .link-blue {color:
+      #51ACFF; text-decoration:none;} .advantages { border:none; border-left:
+      4px solid #FDA472; color: #ffffff; font-size: 24px; font-weight: 500;
+      padding-left: 24px; height: 58px; vertical-align: middle;
+      background-color: none;}
     </mj-style></mj-head
   >
   <mj-body width="640px" background-color="#ffffff">
     <!-- Logo section -->
 
     <mj-section background-color="#313131">
-      <mj-column width="100%" border="1px solid red;">
+      <mj-column width="100%">
         <mj-image
           src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/apple-logo.png"
           alt=""
@@ -23,8 +27,8 @@
     </mj-section>
 
     <!-- Navbar section -->
-    <mj-section background-color="#201E1E">
-      <mj-column width="28%" border="1px solid red;">
+    <mj-section background-color="#111111">
+      <mj-column width="28%">
         <mj-text
           align="center"
           color="#ffffff"
@@ -33,7 +37,7 @@
           >Final Cut Pro X</mj-text
         >
       </mj-column>
-      <mj-column width="41%" border="1px solid red;">
+      <mj-column width="41%">
         <mj-text align="center">
           <a href="#" class="link-white"> Overview</a
           >&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
@@ -43,7 +47,7 @@
         </mj-text>
       </mj-column>
 
-      <mj-column width="31%" border="1px solid red;">
+      <mj-column width="31%">
         <mj-text align="center">
           <a href="#" class="link-white header-btn"> Free trial</a
           >&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
@@ -54,24 +58,27 @@
 
     <!-- Main section -->
 
-    <mj-section background-color="#201E1E">
-      <mj-raw>
-        <hr />
-      </mj-raw>
+    <mj-section background-color="#111111">
       <mj-column width="100%">
-        <mj-text color="#ffffff">
+        <mj-divider />
+        <mj-text
+          color="#ffffff"
+          font-size="48px"
+          align="center"
+          font-weight="500"
+        >
           Our most stunning take on post-production.
         </mj-text>
       </mj-column>
 
       <mj-column width="100%">
-        <mj-text color="#51ACFF">
-          <a href="#"
+        <mj-text color="#51ACFF" align="center">
+          <a href="#" class="link-blue"
             >Try Final Cut Pro free
             <mj-raw> <i class="arrow-right"></i> </mj-raw
           ></a>
-
-          <a href="#"
+          &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+          <a href="#" class="link-blue"
             >Buy now <mj-raw> <i class="arrow-right"></i> </mj-raw
           ></a>
         </mj-text>
@@ -79,19 +86,92 @@
 
       <mj-column width="100%">
         <mj-image
-          src="template2/img/imac.png"
+          src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/imac.png"
           alt=""
-          width="548px"
-          height="404px"
         />
+        <mj-divider />
       </mj-column>
     </mj-section>
 
     <!-- Advantages section-->
-    <mj-section> </mj-section>
+    <mj-section background-color="#111111">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-button
+          background-color="#111111"
+          font-size="32px"
+          font-weight="bold"
+          height="58px"
+          vertical-align="middle"
+          border-left="4px solid
+          
+      #FDA472"
+          text-align="left"
+          inner-padding="2px 20px"
+          border-radius="0px"
+          padding-bottom="36px"
+          align="left"
+          padding-left="100px"
+        >
+          Editing, audio, motion graphics, and delivery.
+        </mj-button>
+        <mj-button
+          background-color="#111111"
+          font-size="32px"
+          font-weight="bold"
+          height="58px"
+          vertical-align="middle"
+          border-left="4px solid
+      #FDA472"
+          text-align="left"
+          inner-padding="2px 20px"
+          border-radius="0px"
+          padding-bottom="36px"
+          align="left"
+          padding-left="100px"
+        >
+          Color grading, HDR support, and ProRes RAW.</mj-button
+        >
+        <mj-button
+          background-color="#111111"
+          font-size="32px"
+          font-weight="bold"
+          height="58px"
+          vertical-align="middle"
+          border-left="4px solid
+      #FDA472"
+          text-align="left"
+          inner-padding="2px 20px"
+          border-radius="0px"
+          padding-bottom="36px"
+          align="left"
+          padding-left="100px"
+        >
+          Metal engine coming this fall.</mj-button
+        >
+        <mj-button
+          background-color="#111111"
+          font-size="32px"
+          font-weight="bold"
+          height="58px"
+          vertical-align="middle"
+          border-left="4px solid
+      #FDA472"
+          text-align="left"
+          inner-padding="2px 20px"
+          border-radius="0px"
+          align="left"
+          padding-left="100px"
+          >360° video editing and VR headset playback.
+        </mj-button>
+      </mj-column>
+    </mj-section>
 
     <!-- Cards section-->
-    <mj-section> </mj-section>
+    <mj-section background-color="#111111">
+      <mj-column width="100%">
+        <mj-divider />
+      </mj-column>
+    </mj-section>
     <!-- Footer section-->
 
     <mj-section> </mj-section>
