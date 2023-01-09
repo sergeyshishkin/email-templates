@@ -21,11 +21,7 @@
 
     <mj-section background-color="#313131" padding="6px 0">
       <mj-column width="100%">
-        <mj-image
-          src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/apple-logo.png"
-          alt=""
-          width="20px"
-        />
+        <mj-image src="/img/apple-logo.png" alt="" width="20px" />
       </mj-column>
     </mj-section>
 
@@ -65,7 +61,7 @@
     </mj-section>
 
     <!-- Tagline section -->
-    <mj-section background-color="#111111" padding="0px 0">
+    <mj-section background-color="#111111" padding="0 0">
       <mj-column width="100%">
         <mj-divider
           border-width="1px"
@@ -102,7 +98,7 @@
           <a href="#" class="link-blue">Try Final Cut Pro free </a>
           <mj-raw>
             <img
-              src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/right-arrow.png"
+              src="img/right-arrow.png"
               alt=""
               width="20px"
               style="vertical-align: middle"
@@ -123,7 +119,7 @@
 
           <mj-raw>
             <img
-              src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/right-arrow.png"
+              src="img/right-arrow.png"
               alt=""
               width="20px"
               style="vertical-align: middle"
@@ -136,10 +132,7 @@
     <!-- Hero-image section -->
     <mj-section background-color="#111111" padding="0 0" padding-bottom="70px">
       <mj-column width="100%">
-        <mj-image
-          src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/imac.png"
-          alt=""
-        />
+        <mj-image src="img/imac.png" alt="" />
       </mj-column>
     </mj-section>
 
@@ -292,7 +285,7 @@
             icon-height="23px"
             padding="0 27px 0 0"
             href="#"
-            src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/fb.png"
+            src="img/fb.png"
           >
           </mj-social-element>
 
@@ -300,7 +293,7 @@
             icon-size="20px"
             padding="0 27px 0 0"
             href="#"
-            src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/tw.png"
+            src="img/tw.png"
           >
           </mj-social-element>
 
@@ -308,7 +301,7 @@
             padding="0 0 0 0"
             icon-size="20px"
             href="#"
-            src="https://raw.githubusercontent.com/sergeyshishkin/email-templates/master/template2/img/ig.png"
+            src="img/ig.png"
           >
           </mj-social-element>
         </mj-social>
